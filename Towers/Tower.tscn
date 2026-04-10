@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dfyeg26kv7qp"]
+
+[ext_resource type="Texture2D" uid="uid://ctht3qebdexoi" path="res://Towers/Blue.png" id="1_crpne"]
+[ext_resource type="Script" uid="uid://ceagbqo3ud3b2" path="res://Towers/Tower.cs" id="1_ukvfa"]
+
+[node name="Tower" type="Node2D" unique_id=483312092]
+script = ExtResource("1_ukvfa")
+
+[node name="TowerSprite" type="Sprite2D" parent="." unique_id=699107832]
+texture = ExtResource("1_crpne")
